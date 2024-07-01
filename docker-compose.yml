@@ -38,7 +38,6 @@ services:
     environment:
       - FIRMWARE_VERSION=v1.3.0
       - FIRMWARE_SHORT_HASH=c2dd87a
-      - CONCENTRATOR_RESET_PIN=25
     labels:
       io.balena.features.sysfs: 1
       io.balena.features.procfs: 1
