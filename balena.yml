@@ -24,6 +24,7 @@ data:
   applicationEnvironmentVariables:
     - FREQ: "N/A (Non Nebra Miner)"
     - VARIANT: COMP-RAKHM
+    - CONCENTRATOR_RESET_PIN_OVERRIDE: 25
   applicationConfigVariables:
     - RESIN_HOST_CONFIG_dtparam: '"i2c_arm=on","spi=on","audio=on"'
     - RESIN_HOST_CONFIG_dtoverlay: '"spi0-1cs","vc4-kms-v3d"'
@@ -36,4 +37,4 @@ data:
   defaultDeviceType: raspberrypi4-64
   supportedDeviceTypes:
     - raspberrypi4-64
-version: 0.1.0-stable
+version: 0.1.1-beta
